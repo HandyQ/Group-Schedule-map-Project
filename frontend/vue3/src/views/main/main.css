@@ -1,0 +1,50 @@
+.blueBtn {
+  background-color: #a9c9de !important;
+  color: white !important;
+  border: none !important;
+  border-radius: 4px !important;
+}
+
+.blueBtn:hover {
+  box-shadow: 0 0 10px #a9c9de;
+}
+
+.redBtn {
+  background-color: rgb(255, 155, 155) !important;
+  color: white !important;
+  border: none !important;
+  border-radius: 4px !important;
+}
+
+.redBtn:hover {
+  box-shadow: 0 0 10px rgb(255, 155, 155);
+}
+
+.whiteBtn {
+  background-color: #ffffff !important;
+  color: rgb(0, 0, 0) !important;
+  border: none !important;
+  border-radius: 4px !important;
+}
+
+.input,
+.el-input input,
+.textarea textarea {
+  outline: none;
+  border: 2px solid #a9c9de;
+  border-radius: 4px;
+}
+
+.input:focus,
+.el-input input:hover,
+.el-input input:focus,
+.textarea textarea:hover,
+.textarea textarea:focus {
+  outline: none;
+  border: 2px solid #a9c9de;
+  box-shadow: 0 0 5px #a9c9de;
+}
+
+.el-form-item.is-error .el-input__inner {
+  border-color: rgb(255, 155, 155) !important;
+}
