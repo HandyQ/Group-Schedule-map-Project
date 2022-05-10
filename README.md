@@ -77,7 +77,7 @@
     yarn serve
     ```
 
-  - Open Street Routing Machine (파일 용량 문제로 인해 없음)
+  - Open Street Routing Machine 
 
     ```shell
     # 프로젝트 디렉토리 진입
